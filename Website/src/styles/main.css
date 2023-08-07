@@ -1,0 +1,75 @@
+h1 {
+  font-size: 64px;
+  font-family: "Barlow";
+  background: linear-gradient(94.13deg, #000204 -38.19%, #429FFF 94.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body{
+  margin: unset !important;
+  padding: unset !important;
+}
+.flippy-front{
+  padding: 0;
+}
+.flippy-back{
+  padding: 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #desktopViewSlider {
+    display: none;
+  }
+
+  #mobileViewSlider{
+    display: block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #desktopViewSlider {
+    display: none;
+  }
+
+  #mobileViewSlider{
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #desktopViewSlider {
+    display: none;
+  }
+
+  #mobileViewSlider{
+    display: block;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #desktopViewSlider {
+    display: block;
+  }
+
+  #mobileViewSlider{
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #desktopViewSlider {
+    display: block;
+  }
+
+  #mobileViewSlider{
+    display: none;
+  }
+}
