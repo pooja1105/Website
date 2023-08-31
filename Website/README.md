@@ -1,1 +1,1 @@
-first commit
+combining elegant design with dynamic functionality.use of carousels, background videos, and responsive elements demonstrates a keen eye for user engagement With a clear focus on delivering event information effectively, work stands as a testament to development.
